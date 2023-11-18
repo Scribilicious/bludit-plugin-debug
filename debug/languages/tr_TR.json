@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Hata Ayıklama",
+        "description": "PHP hatalarını ve uyarılarını gösterir."
+    },
+    "debug-help": "Hata ayıklama, hataları bulmanıza yardımcı olur! Sayfa ve/veya yönetici bölümü için PHP hata raporlamasını etkinleştirmek için açın. <br>Not: Sunucu günlüklerini silmek için uygun erişim haklarına sahip olmanız gerekir.",
+    "errors-log": "Hata günlüğü",
+    "access-log": "Erişim günlüğü",
+    "error-log-file": "Hata günlüğü dosya adı",
+    "access-log-file": "Erişim günlüğü dosya adı",
+    "display-errors": "Hataları göster",
+    "page": "Sayfa",
+    "admin": "Yönetici",
+    "all": "Tümü",
+    "clear-log-files": "Günlük dosyalarını temizle",
+    "clear-all": "Tümünü temizle"
+}

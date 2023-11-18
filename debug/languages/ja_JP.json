@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "デバッグ",
+        "description": "PHPのエラーと警告を表示します。"
+    },
+    "debug-help": "デバッグはバグの発見に役立ちます！ページと/または管理セクションのPHPエラーレポートを有効にするには、オンにしてください。<br>注意：サーバーログの削除には適切なアクセス権が必要です。",
+    "errors-log": "エラーログ",
+    "access-log": "アクセスログ",
+    "error-log-file": "エラーログファイル名",
+    "access-log-file": "アクセスログファイル名",
+    "display-errors": "エラーを表示",
+    "page": "ページ",
+    "admin": "管理者",
+    "all": "すべて",
+    "clear-log-files": "ログファイルをクリア",
+    "clear-all": "すべてクリア"
+}

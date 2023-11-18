@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Debug",
+        "description": "Zeige PHP-Fehler und Warnungen an."
+    },
+    "debug-help": "Debugging hilft bei der Suche nach Fehlern! Um die PHP-Fehlerberichterstattung für die Seite und/oder den Administrationsbereich zu aktivieren, schalten Sie sie ein. <br>Hinweis: Das Löschen von Serverprotokollen erfordert die entsprechenden Zugriffsrechte.",
+    "errors-log": "Fehlerprotokoll",
+    "access-log": "Zugriffsprotokoll",
+    "error-log-file": "Fehlerprotokolldateiname",
+    "access-log-file": "Zugriffsprotokolldateiname",
+    "display-errors": "Fehler anzeigen",
+    "page": "Seite",
+    "admin": "Admin",
+    "all": "Alle",
+    "clear-log-files": "Protokolldateien löschen",
+    "clear-all": "Alles löschen"
+}

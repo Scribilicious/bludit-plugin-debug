@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Debug",
+        "description": "Show the PHP errors and warnings."
+    },
+    "debug-help": "Debugging helps you find bugs! To enable PHP error reporting for the page and/or admin section, turn it on. <br>Note: Deleting server logs requires the appropriate access rights.",
+    "errors-log": "Errors log",
+    "access-log": "Access log",
+    "error-log-file": "Error log filename",
+    "access-log-file": "Access log filename",
+    "display-errors": "Display errors",
+    "page": "Page",
+    "admin": "Admin",
+    "all": "All",
+    "clear-log-files": "Clear log files",
+    "clear-all": "Clear all"
+}

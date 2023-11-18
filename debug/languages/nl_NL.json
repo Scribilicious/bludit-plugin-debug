@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Debug",
+        "description": "Toon de PHP-fouten en waarschuwingen."
+    },
+    "debug-help": "Debuggen helpt bij het vinden van bugs! Schakel PHP-foutrapportage in voor de pagina en/of het beheergedeelte om dit mogelijk te maken. <br>Opmerking: Het verwijderen van serverlogs vereist de juiste toegangsrechten.",
+    "errors-log": "Foutenlogboek",
+    "access-log": "Toegangslogboek",
+    "error-log-file": "Bestandsnaam foutenlogboek",
+    "access-log-file": "Bestandsnaam toegangslogboek",
+    "display-errors": "Fouten weergeven",
+    "page": "Pagina",
+    "admin": "Beheerder",
+    "all": "Alle",
+    "clear-log-files": "Logboekbestanden wissen",
+    "clear-all": "Alles wissen"
+}

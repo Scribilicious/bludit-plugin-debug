@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Debug",
+        "description": "Mostrar los errores y advertencias de PHP."
+    },
+    "debug-help": "¡El depurador te ayuda a encontrar errores! Para habilitar la generación de informes de errores de PHP para la página y/o la sección de administración, actívala. <br>Nota: La eliminación de los registros del servidor requiere los permisos de acceso adecuados.",
+    "errors-log": "Registro de errores",
+    "access-log": "Registro de acceso",
+    "error-log-file": "Nombre del archivo de registro de errores",
+    "access-log-file": "Nombre del archivo de registro de acceso",
+    "display-errors": "Mostrar errores",
+    "page": "Página",
+    "admin": "Admin",
+    "all": "Todos",
+    "clear-log-files": "Borrar archivos de registro",
+    "clear-all": "Borrar todo"
+}

@@ -1,0 +1,17 @@
+{
+    "plugin-data": {
+        "name": "Debug",
+        "description": "Mostra gli errori e gli avvisi PHP."
+    },
+    "debug-help": "Il debug ti aiuta a trovare bug! Per abilitare la segnalazione degli errori PHP per la pagina e/o la sezione di amministrazione, attivala. <br>Nota: L'eliminazione dei log del server richiede i diritti di accesso appropriati.",
+    "errors-log": "Log degli errori",
+    "access-log": "Log degli accessi",
+    "error-log-file": "Nome del file di log degli errori",
+    "access-log-file": "Nome del file di log degli accessi",
+    "display-errors": "Mostra gli errori",
+    "page": "Pagina",
+    "admin": "Admin",
+    "all": "Tutti",
+    "clear-log-files": "Cancella i file di log",
+    "clear-all": "Cancella tutto"
+}
