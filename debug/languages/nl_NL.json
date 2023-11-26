@@ -1,17 +1,19 @@
 {
     "plugin-data": {
-        "name": "Debug",
+        "name": "Debuggen",
         "description": "Toon de PHP-fouten en waarschuwingen."
     },
-    "debug-help": "Debuggen helpt bij het vinden van bugs! Schakel PHP-foutrapportage in voor de pagina en/of het beheergedeelte om dit mogelijk te maken. <br>Opmerking: Het verwijderen van serverlogs vereist de juiste toegangsrechten.",
-    "errors-log": "Foutenlogboek",
-    "access-log": "Toegangslogboek",
-    "error-log-file": "Bestandsnaam foutenlogboek",
-    "access-log-file": "Bestandsnaam toegangslogboek",
-    "display-errors": "Fouten weergeven",
-    "page": "Pagina",
-    "admin": "Beheerder",
-    "all": "Alle",
-    "clear-log-files": "Logboekbestanden wissen",
-    "clear-all": "Alles wissen"
+    "please-support-mrbot": "Als je geniet van mijn plugin, steun me dan door op de onderstaande knop te klikken. Bedankt!",
+    "debug-debug-help": "Debuggen helpt je bugs te vinden! Schakel het in om PHP-foutrapportage in te schakelen voor de pagina en/of het beheergedeelte. <br>Opmerking: Het verwijderen van serverlogs vereist de juiste toegangsrechten.",
+    "debug-errors-log": "Foutenlog",
+    "debug-access-log": "Toegangslog",
+    "debug-error-log-file": "Foutlogbestandsnaam",
+    "debug-access-log-file": "Toegangslogbestandsnaam",
+    "debug-display-errors": "Fouten weergeven",
+    "debug-page": "Pagina",
+    "debug-admin": "Beheerder",
+    "debug-none": "Geen",
+    "debug-all": "Alle",
+    "debug-clear-log-files": "Logbestanden wissen",
+    "debug-clear-all": "Alles wissen"
 }

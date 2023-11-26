@@ -1,17 +1,19 @@
 {
     "plugin-data": {
         "name": "Debug",
-        "description": "Mostra gli errori e gli avvisi PHP."
+        "description": "Mostra gli errori e gli avvisi di PHP."
     },
-    "debug-help": "Il debug ti aiuta a trovare bug! Per abilitare la segnalazione degli errori PHP per la pagina e/o la sezione di amministrazione, attivala. <br>Nota: L'eliminazione dei log del server richiede i diritti di accesso appropriati.",
-    "errors-log": "Log degli errori",
-    "access-log": "Log degli accessi",
-    "error-log-file": "Nome del file di log degli errori",
-    "access-log-file": "Nome del file di log degli accessi",
-    "display-errors": "Mostra gli errori",
-    "page": "Pagina",
-    "admin": "Admin",
-    "all": "Tutti",
-    "clear-log-files": "Cancella i file di log",
-    "clear-all": "Cancella tutto"
+    "please-support-mrbot": "Se ti piace il mio plugin, sostienimi cliccando sul pulsante qui sotto. Grazie!",
+    "debug-debug-help": "Il debug ti aiuta a trovare bug! Per abilitare la segnalazione degli errori PHP per la pagina e/o la sezione di amministrazione, attivala. <br>Nota: L'eliminazione dei log del server richiede i diritti di accesso appropriati.",
+    "debug-errors-log": "Log degli errori",
+    "debug-access-log": "Log degli accessi",
+    "debug-error-log-file": "Nome del file di log degli errori",
+    "debug-access-log-file": "Nome del file di log degli accessi",
+    "debug-display-errors": "Mostra gli errori",
+    "debug-page": "Pagina",
+    "debug-admin": "Admin",
+    "debug-none": "Nessuno",
+    "debug-all": "Tutti",
+    "debug-clear-log-files": "Cancella i file di log",
+    "debug-clear-all": "Cancella tutto"
 }

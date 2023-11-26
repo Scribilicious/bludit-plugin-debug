@@ -1,17 +1,19 @@
 {
     "plugin-data": {
         "name": "Hata Ayıklama",
-        "description": "PHP hatalarını ve uyarılarını gösterir."
+        "description": "PHP hatalarını ve uyarılarını göster."
     },
-    "debug-help": "Hata ayıklama, hataları bulmanıza yardımcı olur! Sayfa ve/veya yönetici bölümü için PHP hata raporlamasını etkinleştirmek için açın. <br>Not: Sunucu günlüklerini silmek için uygun erişim haklarına sahip olmanız gerekir.",
-    "errors-log": "Hata günlüğü",
-    "access-log": "Erişim günlüğü",
-    "error-log-file": "Hata günlüğü dosya adı",
-    "access-log-file": "Erişim günlüğü dosya adı",
-    "display-errors": "Hataları göster",
-    "page": "Sayfa",
-    "admin": "Yönetici",
-    "all": "Tümü",
-    "clear-log-files": "Günlük dosyalarını temizle",
-    "clear-all": "Tümünü temizle"
+    "please-support-mrbot": "Eğer eklentimden hoşlanıyorsanız, lütfen aşağıdaki düğmeye tıklayarak bana destek olun. Teşekkür ederim!",
+    "debug-debug-help": "Hata ayıklama, hataları bulmanıza yardımcı olur! Sayfa ve/veya yönetici bölümü için PHP hata raporlamasını etkinleştirmek için açın. <br>Not: Sunucu günlüklerini silmek için uygun erişim haklarına sahip olmanız gerekir.",
+    "debug-errors-log": "Hatalar günlüğü",
+    "debug-access-log": "Erişim günlüğü",
+    "debug-error-log-file": "Hata günlüğü dosya adı",
+    "debug-access-log-file": "Erişim günlüğü dosya adı",
+    "debug-display-errors": "Hataları göster",
+    "debug-page": "Sayfa",
+    "debug-admin": "Yönetici",
+    "debug-none": "Hiçbiri",
+    "debug-all": "Tümü",
+    "debug-clear-log-files": "Günlük dosyalarını temizle",
+    "debug-clear-all": "Tümünü temizle"
 }

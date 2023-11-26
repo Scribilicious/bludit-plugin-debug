@@ -1,17 +1,19 @@
 {
     "plugin-data": {
-        "name": "Debug",
+        "name": "Depurar",
         "description": "Mostrar los errores y advertencias de PHP."
     },
-    "debug-help": "¡El depurador te ayuda a encontrar errores! Para habilitar la generación de informes de errores de PHP para la página y/o la sección de administración, actívala. <br>Nota: La eliminación de los registros del servidor requiere los permisos de acceso adecuados.",
-    "errors-log": "Registro de errores",
-    "access-log": "Registro de acceso",
-    "error-log-file": "Nombre del archivo de registro de errores",
-    "access-log-file": "Nombre del archivo de registro de acceso",
-    "display-errors": "Mostrar errores",
-    "page": "Página",
-    "admin": "Admin",
-    "all": "Todos",
-    "clear-log-files": "Borrar archivos de registro",
-    "clear-all": "Borrar todo"
+    "please-support-mrbot": "Si te gusta mi plugin, por favor, apóyame haciendo clic en el botón de abajo. ¡Gracias!",
+    "debug-debug-help": "¡Depurar te ayuda a encontrar errores! Para habilitar la notificación de errores de PHP para la página y/o la sección de administración, actívala. <br>Nota: Borrar los registros del servidor requiere los permisos de acceso adecuados.",
+    "debug-errors-log": "Registro de errores",
+    "debug-access-log": "Registro de acceso",
+    "debug-error-log-file": "Nombre del archivo de registro de errores",
+    "debug-access-log-file": "Nombre del archivo de registro de acceso",
+    "debug-display-errors": "Mostrar errores",
+    "debug-page": "Página",
+    "debug-admin": "Administrador",
+    "debug-none": "Ninguno",
+    "debug-all": "Todos",
+    "debug-clear-log-files": "Borrar archivos de registro",
+    "debug-clear-all": "Borrar todo"
 }

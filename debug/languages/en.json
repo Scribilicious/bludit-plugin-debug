@@ -3,15 +3,17 @@
         "name": "Debug",
         "description": "Show the PHP errors and warnings."
     },
-    "debug-help": "Debugging helps you find bugs! To enable PHP error reporting for the page and/or admin section, turn it on. <br>Note: Deleting server logs requires the appropriate access rights.",
-    "errors-log": "Errors log",
-    "access-log": "Access log",
-    "error-log-file": "Error log filename",
-    "access-log-file": "Access log filename",
-    "display-errors": "Display errors",
-    "page": "Page",
-    "admin": "Admin",
-    "all": "All",
-    "clear-log-files": "Clear log files",
-    "clear-all": "Clear all"
+    "please-support-mrbot": "If you enjoy my plugin, please support me by clicking the button below. Thank you!",
+    "debug-debug-help": "Debugging helps you find bugs! To enable PHP error reporting for the page and/or admin section, turn it on. <br>Note: Deleting server logs requires the appropriate access rights.",
+    "debug-errors-log": "Errors log",
+    "debug-access-log": "Access log",
+    "debug-error-log-file": "Error log filename",
+    "debug-access-log-file": "Access log filename",
+    "debug-display-errors": "Display errors",
+    "debug-page": "Page",
+    "debug-admin": "Admin",
+    "debug-none": "None",
+    "debug-all": "All",
+    "debug-clear-log-files": "Clear log files",
+    "debug-clear-all": "Clear all"
 }

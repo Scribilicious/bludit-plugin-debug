@@ -25,7 +25,6 @@ class pluginDebug extends Plugin {
         }
     }
 
-
     public function adminHead()
     {
         if (in_array($this->getValue('display-errors'), [2,3])) {
@@ -72,35 +71,35 @@ class pluginDebug extends Plugin {
         $settings .= $L->get('Debug Help');
         $settings .= '</div>';
         $settings .= '<div>';
-        $settings .= '<label>' . $L->get('Error log file') . '</label>';
+        $settings .= '<label>' . $L->get('Debug Error log file') . '</label>';
         $settings .= '<input name="file-error" type="text" value="' . $this->getValue('file-error') . '">';
         $settings .= '</div>';
         $settings .= '<div>';
-        $settings .= '<label>' . $L->get('Access log file') . '</label>';
+        $settings .= '<label>' . $L->get('Debug Access log file') . '</label>';
         $settings .= '<input name="file-access" type="text" value="' . $this->getValue('file-access') . '">';
         $settings .= '</div>';
         $settings .= '<div>';
-        $settings .= '<label>' . $L->get('Display errors') . '</label>';
+        $settings .= '<label>' . $L->get('Debug Display errors') . '</label>';
         $settings .= '<select name="display-errors">';
-        $settings .= '<option value="" ' . ($this->getValue('display-errors') === 0 ? 'selected' : '') . '>' . $L->get('None') . '</option>';
-        $settings .= '<option value="1" ' . ($this->getValue('display-errors') === 1 ? 'selected' : '') . '>' . $L->get('Page') . '</option>';
-        $settings .= '<option value="2" ' . ($this->getValue('display-errors') === 2 ? 'selected' : '') . '>' . $L->get('Admin') . '</option>';
-        $settings .= '<option value="3" ' . ($this->getValue('display-errors') === 3 ? 'selected' : '') . '>' . $L->get('All') . '</option>';
+        $settings .= '<option value="" ' . ($this->getValue('display-errors') === 0 ? 'selected' : '') . '>' . $L->get('Debug None') . '</option>';
+        $settings .= '<option value="1" ' . ($this->getValue('display-errors') === 1 ? 'selected' : '') . '>' . $L->get('Debug Page') . '</option>';
+        $settings .= '<option value="2" ' . ($this->getValue('display-errors') === 2 ? 'selected' : '') . '>' . $L->get('Debug Admin') . '</option>';
+        $settings .= '<option value="3" ' . ($this->getValue('display-errors') === 3 ? 'selected' : '') . '>' . $L->get('Debug All') . '</option>';
         $settings .= '</select>';
         $settings .= '</div>';
         $settings .= '<div>';
-        $settings .= '<label>' . $L->get('Clear log files') . '</label>';
+        $settings .= '<label>' . $L->get('Debug Clear log files') . '</label>';
         $settings .= '<select name="clear-cache">';
         $settings .= '<option value="">-</option>';
-        $settings .= '<option value="1">' . $L->get('Error log') . '</option>';
-        $settings .= '<option value="2">' . $L->get('Access log') . '</option>';
-        $settings .= '<option value="3">' . $L->get('Clear all') . '</option>';
+        $settings .= '<option value="1">' . $L->get('Debug Errors log') . '</option>';
+        $settings .= '<option value="2">' . $L->get('Debug Access log') . '</option>';
+        $settings .= '<option value="3">' . $L->get('Debug Clear all') . '</option>';
         $settings .= '</select>';
         $settings .= '</div>';
 
-        $this->addTab($L->get('Settings'), $settings);
-        $this->addTab($L->get('Errors Log'), '<br>' . $this->loadLog($this->getValue('file-error')));
-        $this->addTab($L->get('Access Log'), '<br>' . $this->loadLog($this->getValue('file-access')));
+        $this->addTab($L->get('Debug Settings'), $settings);
+        $this->addTab($L->get('Debug Errors Log'), '<br>' . $this->loadLog($this->getValue('file-error')));
+        $this->addTab($L->get('Debug Access Log'), '<br>' . $this->loadLog($this->getValue('file-access')));
         $html .= $this->outputTabs();
 
         $html .= $this->footer();
@@ -149,7 +148,7 @@ class pluginDebug extends Plugin {
         $html = '';
 
         if (!file_exists($fileName)) {
-            return $html . '<p>' . $L->get('Log file "' . $fileName . '" doesn not exist.') . '</p>';
+            return $html . '<p>' . $L->get('Debug Log file "' . $fileName . '" doesn not exist.') . '</p>';
         }
 
         $logContent = file_get_contents($fileName);
@@ -157,7 +156,7 @@ class pluginDebug extends Plugin {
         $logs = explode(PHP_EOL, trim($logContent));
 
         if (empty($logs)) {
-            return $html . '<p>' . $L->get('Log file is empty.') . '</p>';
+            return $html . '<p>' . $L->get('Debug Log file is empty.') . '</p>';
         }
 
         $html .= '<div style="font-family: SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\">';
@@ -176,7 +175,7 @@ class pluginDebug extends Plugin {
         $icons = ['💸', '🥹', '☕️', '🍻', '👾', '🍕'];
         shuffle($icons);
         $html = '<div class="bg-light text-center border mt-3 p-3">';
-        $html .= '<p class="mb-2">' . $L->get('Please support me') . '</p>';
+        $html .= '<p class="mb-2">' . $L->get('Please support Mr.Bot') . '</p>';
         $html .= '<a style="background: #ffd11b;box-shadow: 2px 2px 5px #ccc;padding: 0 10px;border-radius: 50%;width: 60px;display: block;text-align: center;margin: auto;height: 60px; font-size: 40px; line-height: 60px;" href="https://www.buymeacoffee.com/iambot" target="_blank" title="Buy me a coffee...">' . $icons[0] . '</a>';
         $html .= '</div><br>';
 

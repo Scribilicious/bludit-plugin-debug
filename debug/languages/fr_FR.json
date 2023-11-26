@@ -1,17 +1,19 @@
 {
     "plugin-data": {
-        "name": "Debug",
-        "description": "Affiche les erreurs et avertissements PHP."
+        "name": "Débogage",
+        "description": "Afficher les erreurs et avertissements PHP."
     },
-    "debug-help": "Le débogage vous aide à trouver des bugs ! Pour activer le rapport d'erreurs PHP pour la page et/ou la section d'administration, activez-le. <br>Remarque : La suppression des journaux du serveur nécessite les droits d'accès appropriés.",
-    "errors-log": "Journal des erreurs",
-    "access-log": "Journal d'accès",
-    "error-log-file": "Nom du fichier journal des erreurs",
-    "access-log-file": "Nom du fichier journal d'accès",
-    "display-errors": "Afficher les erreurs",
-    "page": "Page",
-    "admin": "Admin",
-    "all": "Tous",
-    "clear-log-files": "Effacer les fichiers journaux",
-    "clear-all": "Tout effacer"
+    "please-support-mrbot": "Si vous aimez mon plugin, veuillez me soutenir en cliquant sur le bouton ci-dessous. Merci !",
+    "debug-debug-help": "Le débogage vous aide à trouver des bugs ! Pour activer le rapport d'erreurs PHP pour la page et/ou la section d'administration, activez-le. <br>Remarque : La suppression des journaux du serveur nécessite les droits d'accès appropriés.",
+    "debug-errors-log": "Journal des erreurs",
+    "debug-access-log": "Journal d'accès",
+    "debug-error-log-file": "Nom du fichier journal des erreurs",
+    "debug-access-log-file": "Nom du fichier journal d'accès",
+    "debug-display-errors": "Afficher les erreurs",
+    "debug-page": "Page",
+    "debug-admin": "Admin",
+    "debug-none": "Aucun",
+    "debug-all": "Tous",
+    "debug-clear-log-files": "Effacer les fichiers journaux",
+    "debug-clear-all": "Tout effacer"
 }
